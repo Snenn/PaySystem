@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <definition name="default" template="/WEB-INF/views/login.jsp"/>
+
+    <definition name="error" template="/WEB-INF/views/error.jsp"/>
+
+    <definition name="404" template="/WEB-INF/views/404.jsp"/>
+
+    <definition name="403" template="/WEB-INF/views/403.jsp"/>
+
+    <definition name="login" template="/WEB-INF/views/login.jsp"/>
+
+    <definition name="reg" template="/WEB-INF/views/signup.jsp"/>
+
+    <definition name="" template="/WEB-INF/views/login.jsp"/>
+
+    <definition name="user" template="/WEB-INF/views/user/userMainAccounts.jsp"/>
+
+    <definition name="userCards" template="/WEB-INF/views/user/userCards.jsp"/>
+
+    <definition name="userPayments" template="/WEB-INF/views/user/userPayments.jsp"/>
+
+    <definition name="userTransfers" template="/WEB-INF/views/user/userTransfers.jsp"/>
+
+    <definition name="userCreateAccount" template="/WEB-INF/views/user/userCreateAccount.jsp"/>
+
+    <definition name="userReplenishAccount" template="/WEB-INF/views/user/userReplenishAccount.jsp"/>
+
+    <definition name="userDeleteAccount" template="/WEB-INF/views/user/userDeleteAccount.jsp"/>
+
+    <definition name="userСreateCard" template="/WEB-INF/views/user/userСreateCard.jsp"/>
+
+    <definition name="userDeleteCard" template="/WEB-INF/views/user/userDeleteCard.jsp"/>
+
+    <definition name="userCreatePayment" template="/WEB-INF/views/user/userCreatePayment.jsp"/>
+
+    <definition name="userCreateTransfer" template="/WEB-INF/views/user/userCreateTransfer.jsp"/>
+
+    <definition name="admin" template="/WEB-INF/views/admin/main.jsp"/>
+
+    <definition name="home1" template="/WEB-INF/views/home.jsp"/>
+
+    <definition name="adminCreditCards" template="/WEB-INF/views/admin/creditCards.jsp"/>
+
+    <definition name="adminUsers" template="/WEB-INF/views/admin/users.jsp"/>
+
+    <definition name="adminAccounts" template="/WEB-INF/views/admin/accounts.jsp"/>
+
+    <definition name="adminPayments" template="/WEB-INF/views/admin/payments.jsp"/>
+
+    <definition name="adminTransfers" template="/WEB-INF/views/admin/transfers.jsp"/>
+
+
+
+
+
+
+
+</tiles-definitions>

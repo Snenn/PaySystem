@@ -1,0 +1,133 @@
+.data_personalDate {
+    border-radius: 4px;
+    background-color: #f1f1f8;
+    width: 900px;
+    height: 150px;
+    margin-left: 200px;
+    float: left;
+}
+
+.data_personalDateTop {
+    border-radius: 4px;
+    background-color: #fffb7b;
+    width: 900px;
+    height: 30px;
+}
+
+.textInCaption {
+    font: "Times New Roman";
+    font-size: 120%;
+    margin-left: 20px;
+}
+
+.exchangeRates {
+    border-radius: 4px;
+    background-color: #f1f1f8;
+    width: 230px;
+    height: 150px;
+    margin-left: 1110px;
+}
+
+.exchangeRatesTop {
+    border-radius: 4px;
+    background-color: #fffb7b;
+    width: 230px;
+    height: 30px;
+}
+
+.menu {
+    border-radius: 4px;
+    background-color: #f1f1f8;
+    width: 200px;
+    height: 500px;
+    margin-left: 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+.menuTop {
+    border-radius: 4px;
+    background-color: #fffb7b;
+    width: 200px;
+    height: 30px;
+}
+
+.news {
+    border-radius: 4px;
+    background-color: #f1f1f8;
+    width: 230px;
+    height: 500px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsTop {
+    border-radius: 4px;
+    background-color: #fffb7b;
+    width: 230px;
+    height: 30px;
+}
+
+.actionWindow {
+    border-radius: 4px;
+    background-color: #f1f1f8;
+    width: 690px;
+    height: 500px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.actionWindowTop {
+    border-radius: 4px;
+    background-color: #fffb7b;
+    width: 690px;
+    height: 30px
+}
+.scroll {
+    overflow: auto;
+    width: 690px;
+    height: 470px;
+}
+
+.just_scroll {
+    overflow: auto;
+}
+
+
+.menuTree span:hover {
+    font-weight: bold;
+}
+
+.menuTree span {
+    cursor: pointer;
+}
+.top {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.table_accounts {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 2px solid #ddd;
+}
+
+.centring {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
