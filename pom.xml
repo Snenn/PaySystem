@@ -431,7 +431,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.showCars.Main</mainClass>
+                            <mainClass>by.snenn.Main</mainClass>
                             <name>webapp</name>
                         </program>
                     </programs>
