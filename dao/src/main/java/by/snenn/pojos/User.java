@@ -38,7 +38,7 @@ public class User implements Serializable {
     @Size(min = 1, max = 20, message = "Your name must be between 1 and 20 characters long.")
     private String password;
     @OneToMany(mappedBy = "user", fetch = FetchType.EAGER)
-    private List<Account> accounts = new ArrayList<>();
+    private List<Account> accounts = new ArrayList();
     @ManyToOne
     @JoinColumn
     private UserRole userRole;

@@ -34,7 +34,7 @@ public class Account implements Serializable{
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,
             mappedBy = "account", orphanRemoval = true)
-    private List<CreditCard> creditCards = new ArrayList<>();
+    private List<CreditCard> creditCards = new ArrayList();
 
     public Account(int balance, User user, List<CreditCard> creditCards, Date date) {
         this.balance = balance;

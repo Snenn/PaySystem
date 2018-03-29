@@ -32,15 +32,15 @@ public class CreditCard implements Serializable {
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,
             mappedBy = "creditCardPayment", orphanRemoval = true)
-    private List<Payment> payments = new ArrayList<>();
+    private List<Payment> payments = new ArrayList();
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,
             mappedBy = "cardSender", orphanRemoval = true)
-    private List<Transfer> transfersSender = new ArrayList<>();
+    private List<Transfer> transfersSender = new ArrayList();
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,
             mappedBy = "cardRecipient", orphanRemoval = true)
-    private List<Transfer> transfersRecipient = new ArrayList<>();
+    private List<Transfer> transfersRecipient = new ArrayList();
     @Column
     private int viewNumber;
 

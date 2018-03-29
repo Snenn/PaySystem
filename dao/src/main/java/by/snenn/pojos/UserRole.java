@@ -25,7 +25,7 @@ public class UserRole implements Serializable{
     @Column
     private String nameRoleUser;
     @OneToMany(mappedBy = "userRole")
-    private List<User> users = new ArrayList<>();
+    private List<User> users = new ArrayList();
 
 
     public UserRole(String nameRoleUser, List<User> users) {
