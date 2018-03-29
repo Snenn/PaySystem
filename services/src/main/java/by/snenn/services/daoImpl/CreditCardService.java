@@ -112,7 +112,7 @@ public class CreditCardService implements ICreditCardService {
 
         try {
             List<CreditCard> creditCards = creditCardDao.getAll();
-            ArrayList<Integer> idCardList = new ArrayList<>();
+            ArrayList<Integer> idCardList = new ArrayList();
             for (CreditCard creditCard : creditCards) {
                 idCardList.add(creditCard.getId());
             }
@@ -183,7 +183,7 @@ public class CreditCardService implements ICreditCardService {
         try {
             Account account = (Account) accountDao.getByIdUser(user.getId());
             List<CreditCard> creditCards = creditCardDao.getAllByIdAccount(account.getId());
-            ArrayList<Integer> idCardList = new ArrayList<>();
+            ArrayList<Integer> idCardList = new ArrayList();
             for (CreditCard creditCard : creditCards) {
                 idCardList.add(creditCard.getId());
             }

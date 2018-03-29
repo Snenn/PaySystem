@@ -104,7 +104,7 @@ public class AccountService implements IAccountService {
     }
 
     @Override
-    public boolean checkPermission(int idUser, int idAccount) {
+    public boolean checkPermission(int idUser, int idAccount) throws Exception {
         boolean check = false;
         try {
 

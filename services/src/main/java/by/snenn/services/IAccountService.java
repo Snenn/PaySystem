@@ -24,7 +24,7 @@ public interface IAccountService {
 
     List getAccountsByUser(int idUser);
 
-    boolean checkPermission (int idUser, int idAccount);
+    boolean checkPermission (int idUser, int idAccount) throws Exception;
 
     int getCountAccounts();
 
